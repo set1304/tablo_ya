@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My webpack</title>
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Табло аэропорта Шереметьево</h1>
+        <p class="lead">+7 (495) 578-65-65, +7 (925) 100-65-65 141400, Московская обл., г. Химки, а/п Шереметьево</p>
+      </div>
+    </div>
+    <div class="container">
+      <nav class="nav">
+        <a class="nav-link text-secondary" href="#" id='dep'>
+          <h1>Вылет</h1>
+        </a>
+        <a class="nav-link text-secondary" href="#" id='arrive'>
+          <h1>Прилет</h1>
+        </a>
+        <form class="form-inline my-2 my-lg-0" id='search'>
+            <input class="form-control mr-sm-2" type="search" placeholder="Номер рейса" aria-label="Search" id="text">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Найти</button>
+        </form>
+      </nav>
+      <table class="table">
+          <thead>
+              <tr>
+                <th scope="col">Время</th>
+                <th scope="col">Номер рейса</th>
+                <th scope="col">Направление</th>
+              </tr>
+          </thead>
+          <tbody id='SVO'>
+
+          </tbody>
+      </table>
+    </div>
+  </body>
+        
+               
+        
+        
+
+        
+</html>
